@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0b0a">
+  <title>SUS — En lydoplevelse, man går igennem.</title>
+  <meta name="description" content="SUS er en platform til stedsspecifikke lydoplevelser. Gæstens bevægelse former musik, stemmer og fortællinger i realtid. Se prototypen og resultaterne fra felttesten.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#indhold">Gå til indhold</a>
+<header class="header">
+  <a class="brand" href="#" aria-label="SUS — forside">SUS<span>Sonic Umwelt<br>Stimulation</span></a>
+  <nav aria-label="Hovednavigation"><a href="#system">Platformen</a><a href="#metode">Metoden</a><a href="#resultater">Resultater</a><a href="#film">Se og hør SUS ↘</a></nav>
+</header>
+<main id="indhold">
+  <section class="hero shell" aria-labelledby="hero-heading">
+    <p class="eyebrow">Adaptiv lyd til natur, museer og kultursteder</p>
+    <h1 id="hero-heading">En lydoplevelse,<br><span>man går igennem.</span></h1>
+    <div class="hero-bottom"><p>SUS lader gæstens position og afstand forme musik, stemmer og fortællinger i realtid. En åben lydoplevelse, der udfolder sig gennem bevægelsen på stedet.</p><div class="hero-actions"><a class="button lime" href="#film">Se og hør SUS <span>↘</span></a><a class="text-link" href="#system">Udforsk platformen ↓</a></div></div>
+  </section>
+
+  <section class="film shell" id="film" aria-labelledby="film-heading">
+    <div class="section-label"><h2 id="film-heading">Oplev systemet i bevægelse.</h2><span>01 / Utterslev Mose</span></div>
+    <p class="proof"><strong>Lyden er proof of concept.</strong> Musikken og lydene i begge videoer demonstrerer systemets muligheder. Lydindholdet udvikles til jeres sted og fortælling.</p>
+    <div class="video-embed"><iframe id="main-film" src="https://www.youtube-nocookie.com/embed/EmNkbqmhPho?rel=0&amp;playsinline=1" title="Hoveddemo af SUS i Utterslev Mose" width="1280" height="720" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen aria-describedby="main-caption"></iframe></div>
+    <div class="caption" id="main-caption"><span>Hoveddemo · GPS-prototype · lyd som proof of concept</span><span>Lyt med hovedtelefoner · <a href="https://www.youtube.com/watch?v=EmNkbqmhPho" target="_blank" rel="noopener noreferrer">Se på YouTube ↗</a></span></div>
+    <p class="film-note">I den viste prototype danner 24 lydspor et foranderligt lydlandskab. Bevægelsen mellem områder former, hvilke lag der træder frem.</p>
+  </section>
+
+  <section class="results section-space" id="resultater" aria-labelledby="results-heading">
+    <div class="shell">
+      <p class="eyebrow">Felttest / Utterslev Mose / 4 deltagere</p>
+      <div class="two-col"><h2 id="results-heading">De stoppede op.<br>Og så mere af stedet.</h2><p class="intro">Observationerne og deltagernes svar peger på det, SUS er designet til: at skabe plads til at lytte og rette opmærksomheden mod omgivelserne.</p></div>
+      <div class="metrics">
+        <div class="metric"><p class="number">5<span>/5</span></p><h3>“Lyden fik mig til at lægge mere mærke til landskabet”</h3><p>Gennemsnit i spørgeskemaet · 4 deltagere</p></div>
+        <div class="metric"><p class="number">4<span>/4</span></p><h3>Stoppede op for at lytte</h3><p>Observeret under felttesten</p></div>
+        <div class="metric"><p class="number">0<span>/4</span></p><h3>Kiggede på telefonen</h3><p>Observeret under felttesten</p></div>
+      </div>
+      <blockquote><p>“jeg reflekterede mere over naturen”</p><cite>Thor · deltager i felttesten ved Utterslev Mose</cite></blockquote>
+      <p class="study-note">Resultaterne stammer fra en eksplorativ felttest med fire deltagere. De beskriver denne prototype og er ikke dokumentation for en generel effekt. Beacon-funktionen er tilføjet senere og indgik ikke i denne test.</p>
+      <details><summary>Se flere resultater og deres grundlag <span>+</span></summary><div class="details-content"><ul class="result-list"><li><strong>4,75/5</strong> Lydenes sammenhæng med omgivelserne</li><li><strong>4,5/5</strong> Oplevet tilstedeværelse</li><li><strong>4,75/5</strong> Naturlige overgange</li><li><strong>4/4</strong> Gik langsommere, observeret under testen</li></ul><p>Udsagnet “Appen forstyrrede min oplevelse” fik et lavt gennemsnit på 1,75/5. Oplevelsen varierede dog: På spørgsmålet om, hvorvidt lyden hørte hjemme på stedet, lå svarene fra 3 til 5. Den lille undersøgelse bruges som grundlag for videre udvikling og afprøvning.</p></div></details>
+    </div>
+  </section>
+
+  <section class="paper section-space" id="system" aria-labelledby="system-heading">
+    <div class="shell"><p class="eyebrow">Platformen / Fra sted til lydoplevelse</p><div class="two-col"><h2 id="system-heading">Jeres sted.<br>Jeres lydlige univers.</h2><p class="intro">SUS er en platform til at skabe stedsspecifikke lydoplevelser. Musik, stemmer og atmosfærer kan formes af gæstens position og afstand — med plads til at udforske i eget tempo og uden en fast rækkefølge.</p></div>
+      <div class="platform-grid">
+        <article><p class="eyebrow">01 / Området</p><h3>Bevægelse former forløbet.</h3><p>GPS forbinder lyd med geografiske områder. Afstande omsættes til løbende ændringer, så kompositionen kan udvikle sig mellem stederne.</p></article>
+        <article><p class="eyebrow">02 / Detaljen</p><h3>Nærhed åbner nye lag.</h3><p>Den nye udgave bruger også beacons til afstandsmåling. Det giver mulighed for finere detaljer, når gæsten nærmer sig udvalgte punkter.</p></article>
+        <article><p class="eyebrow">03 / Oplevelsen</p><h3>Lyden formes i realtid.</h3><p>Lydlag kan træde frem, forsvinde og kombineres undervejs. Den samme platform kan danne ramme om musikalske landskaber og fortællinger i lyd.</p></article>
+      </div>
+      <p class="technical-note">Udviklet i Unity med C# og FMOD. GPS forbinder oplevelsen med større områder, mens beacons giver mulighed for at arbejde med nærhed til udvalgte punkter. Opsætning og afstande tilpasses og afprøves på det konkrete sted.</p>
+    </div>
+  </section>
+
+  <section class="paper method section-space" id="metode" aria-labelledby="method-heading">
+    <div class="shell"><p class="eyebrow">Metoden / Faglighed omsat til oplevelse</p><h2 id="method-heading">Komponeret til stedet.<br>Formet af gæsten.</h2><p class="section-intro">SUS forbinder lydkunst, stedslig perception og adaptiv komposition. Fire principper former oplevelsen — fra gæstens frie bevægelse til samspillet mellem lyden og stedet.</p>
+      <div class="method-row"><span class="index">01</span><h3>Giv plads til at gå på opdagelse.</h3><div><p>Med afsæt i Tim Ingolds begreb wayfaring følger oplevelsen gæstens egen vej. Der er ikke et bestemt mål, man skal nå: Bevægelsen og opdagelsen af stedet er selve oplevelsen.</p></div></div>
+      <div class="method-row"><span class="index">02</span><h3>Lad lyden høre til.</h3><div><p>Stedets åbenhed, dybde og teksturer bliver kompositorisk materiale. I prototypen møder åbne landskaber lange strygerdroner, mens bevægelsen mod vandet opløser pulsen i mere flydende lyd.</p></div></div>
+      <div class="method-row"><span class="index">03</span><h3>Ret opmærksomheden mod omgivelserne.</h3><div><p>Lyden komponeres i dialog med stedet og med plads til omgivelsernes egne lyde. En enkel brugerflade og mulighed for at tilpasse lydstyrken understøtter den lyttende oplevelse.</p></div></div>
+      <div class="method-row"><span class="index">04</span><h3>Skab sammenhæng uden en fast rækkefølge.</h3><div><p>Genkendelige motiver og flydende overgange holder oplevelsen sammen, selv når gæsten vælger sin egen vej. Lydforløbet får en form, der kan rumme forskellige bevægelser.</p></div></div>
+      <details><summary>Hvordan stedet bliver til lyd <span>+</span></summary><div class="details-content"><p>Metoden omsætter stedets kvaliteter til musik og lyd: åbenhed kan blive til lange toner og rumlig dybde, mens vandets bevægelse kan blive til flydende teksturer. Lydøkologi og adaptiv komposition giver et fælles afsæt for at skabe sammenhæng mellem stedet, lyden og gæstens bevægelse.</p><p>Felttesten omhandler natur og musik. Museer, kulturarv og lydfortællinger er mulige anvendelser, som skal udvikles og afprøves i deres egen sammenhæng.</p></div></details>
+    </div>
+  </section>
+
+  <section class="story section-space" aria-labelledby="story-heading"><div class="shell"><p class="eyebrow">02 / Fortællinger i lyd</p><div class="two-col"><h2 id="story-heading">Et sted kan også<br>fortælle gennem lyd.</h2><p class="intro">SUS kan også bruges til at udforske fortællinger. Denne tidlige demo bruger krigslyde som eksempel på, hvordan bevægelse kan føre gæsten gennem forskellige lydlige scener.</p></div>
+    <p class="proof"><strong>Lyden er proof of concept.</strong> Denne tidlige demo viser et muligt fortælleformat. Lydmaterialet er et eksempel på systemets anvendelse.</p>
+    <div class="video-embed"><iframe id="story-film" src="https://www.youtube-nocookie.com/embed/-wYvmmW34XY?rel=0&amp;playsinline=1" title="SUS — fortællingsdemo med lyd som proof of concept" width="1280" height="720" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen aria-describedby="story-caption"></iframe></div>
+    <div class="caption" id="story-caption"><span>Fortællingsdemo · lyd som proof of concept</span><span>Lyt med hovedtelefoner · <a href="https://www.youtube.com/watch?v=-wYvmmW34XY" target="_blank" rel="noopener noreferrer">Se på YouTube ↗</a></span></div>
+    <details class="prototype-details"><summary>Se prototypens lydfelt i fire positioner <span>+</span></summary><div class="details-content"><p>Skærmbilleder fra prototypens visuelle lydfelt. De viser udviklingsarbejdet bag oplevelsen.</p><div class="prototype-grid"><img src="assets/sus-field-01.png" width="696" height="1364" loading="lazy" alt="Prototypens lydfelt med tre grupper af lydpartikler, position 1"><img src="assets/sus-field-02.png" width="712" height="1356" loading="lazy" alt="Lydfeltets partikler ændrer placering, position 2"><img src="assets/sus-field-03.png" width="730" height="1356" loading="lazy" alt="Tre lydfelter med forskellig tæthed, position 3"><img src="assets/sus-field-04.png" width="714" height="1398" loading="lazy" alt="Prototypens lydfelt ved en ny GPS-position, position 4"></div></div></details>
+  </div></section>
+
+  <section class="paper section-space" id="muligheder" aria-labelledby="possibilities-heading"><div class="shell"><p class="eyebrow">Muligheder / Et udgangspunkt for jeres projekt</p><h2 id="possibilities-heading">Hvad skal gæsterne<br>opdage hos jer?</h2><div class="uses-grid"><article><h3>Natur &amp; landskab</h3><p>Lydvandringer, der inviterer gæsterne til at opdage stedets stemninger og detaljer.</p></article><article><h3>Museer &amp; kulturarv</h3><p>Stemmer og lydlige scener, der kan åbne fortællinger omkring udvalgte steder.</p></article><article><h3>Kunst &amp; installation</h3><p>Kompositioner, hvor publikums bevægelse bliver en del af værkets form.</p></article><article><h3>Byer &amp; destinationer</h3><p>Stedsspecifikke lydoplevelser, der giver gæster en ny måde at udforske området på.</p></article></div><div class="project-process"><h3>Fra idé til afprøvning på stedet.</h3><p>Vi begynder med jeres sted, gæster og formål. Derfra formes lydindhold og bevægelse, systemet tilpasses området, og oplevelsen afprøves med brugere.</p></div></div></section>
+
+</main>
+<footer class="footer shell"><div><a class="footer-logo" href="#">SUS</a><p>Kristian Kirkegaard<br>Creative Technologist · København</p></div><div class="footer-links"><a href="https://kristiankirkegaard.com/" target="_blank" rel="noopener noreferrer">Portfolio ↗</a><span>© 2026 SUS</span></div></footer>
+</body>
+</html>
